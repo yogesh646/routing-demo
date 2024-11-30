@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Additional custom global styles can go here */
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+/* styles.css */
+.container {
+  padding: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* global.css */
+header {
+  background-color: #36c79b;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 0.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #037247;
+  color: #100f0f;
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem;
+  margin-top: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
