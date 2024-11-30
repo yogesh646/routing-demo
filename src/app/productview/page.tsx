@@ -24,7 +24,7 @@ const page = () => {
 
   return (
     <div className="h-[1000px] ">
-      page ID:{id}
+      page IDs:{id}
       <div className="flex h-[800px] flex-col w-[600px] ml-10 mt-6">
         {productView
           .filter((item, index) => item?.id == id)

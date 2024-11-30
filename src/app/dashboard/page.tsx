@@ -24,14 +24,7 @@ const Dashboard: React.FC<ButtonProps> = ({
   const [datas, setdatas] = useState([]);
   const { push } = useRouter();
   const searchparams = useSearchParams();
-  const tableData = [
-    { id: 1, name: "John Doe", age: 25, city: "New York" },
-    { id: 2, name: "Jane Smith", age: 30, city: "Los Angeles" },
-    { id: 3, name: "Bob Johnson", age: 22, city: "Chicago" },
-    { id: 1, name: "John Doe", age: 25, city: "New York" },
-    { id: 2, name: "Jane Smith", age: 30, city: "Los Angeles" },
-    { id: 3, name: "Bob Johnson", age: 22, city: "Chicago" },
-  ];
+
   const [loading, setLoading] = useState(true);
   const [datap, setdatap] = useState([]);
   const send = () => {

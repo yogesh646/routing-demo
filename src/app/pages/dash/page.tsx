@@ -4,7 +4,7 @@ import Dashboard from 'routes/app/dashboard/page';
 const DashboardPage = () => {
   return (
     <div>
-      This is Protected page
+      This is Protected pages
         <Dashboard/>
     </div>
   )
